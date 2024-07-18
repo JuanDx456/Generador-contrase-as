@@ -1,0 +1,27 @@
+<html lang="es">
+    <title>Passwords generator</title>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    </head>
+    <body>
+        <div id="contenedor">
+            <h1>Generate a<br>
+            <span class="subcolorNight">random password</span></h1>
+            <p>Never use an insecure password again</p>
+            <button id="btGenerate">Generate passwords</button>
+            <p>Lenght password: (8-15)</p>
+            <input name="lenght_password" id="lenght_password" type="number" value="8" min="8" max="15" step="1" placeholder="8"/>
+            <hr>
+            <div id="passContainer">
+                <div class="Coppy">
+                    <label class="lb-clip"></label>             
+                </div>
+                <div class="Coppy">
+                    <label class="lb-clip"></label>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

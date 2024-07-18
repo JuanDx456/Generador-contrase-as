@@ -1,0 +1,151 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: Karla;
+    margin-right: 50%;
+}
+
+hr {
+    width: 95%;
+    border-color: #2F3E53;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Coppy {
+    display: flex;
+    position: relative;
+    text-align: center;
+    background-color: #273549;
+    color: #10B981;
+    font-size: 22px;
+    width: 20vw;
+    height: 6vh;
+    padding-top: 1vh;
+    margin-right: 2vw;
+    border-radius: 8px;
+}
+
+.lb-clip {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.subcolorNight {
+    color: #10B981;
+}
+
+#contenedor {
+    margin-left: 25vw;
+    width: 50%;
+    font-family:Inter;
+}
+
+#passContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+}
+
+#btGenerate {
+    display: flex;
+    justify-content: center;
+    background-color: #10B981;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 4vh;
+    width: 17vw;
+    height: 8vh;
+    padding-top: 1.5%;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 964px) {
+
+    #btGenerate {
+      display: flex;
+      justify-content: center;
+      height: 13.8vh;
+      width: 21vw;
+      font-size: 18px;
+      padding-top: 3.5%;
+    }
+
+    .Coppy {
+        height: 7vh;
+        padding-top: 0.3vh;
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 864px) {
+
+    #btGenerate {
+      padding-top: 2.5%;
+      width: 28vw;
+    }
+
+    .Coppy {
+        width: 100%;
+        height: 10vh;
+        padding-top: 2vh;
+        margin-right: 2vw;
+        margin-bottom: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 664px) {
+
+    #btGenerate {
+      width: 100%;
+      height: 15vh;
+      font-size: 18px;
+    }
+
+    #passContainer {
+        display:block;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .Coppy {
+        height: 14vh;
+        padding-top: 5vh;
+    }
+
+}
+
+@media only screen and (max-width: 364px) {
+
+    #btGenerate {
+      width: 100%;
+      height: 20vh;
+      font-size: 10px;
+      padding-top: 3.4%;
+    }
+
+    .Coppy {
+        font-size: 15px;
+        padding-top: 1vh;
+    }
+
+}
+
